@@ -75,7 +75,7 @@ Mpc_to_cm=3.086e24
 #   Inputs to be changed:
 #------------------------------------------------------------------------------------
 
-path = '/Volumes/Untitled/SAMs/SAGv3/' #working directory
+path = '/dust-master/' #working directory
 redshift=0.09 #redshift of the SAM catalogue
 #------------------------------------------------------------------------------------
 #   Read input file and implement attenuation:
@@ -108,6 +108,6 @@ logLatt, logFatt, logF, attenuation_disc = attenuatedQ(logL, Mcold_disc, rhalf_m
 #------------------------------------------------------------------------------------
 out=np.array([logL, logLatt, logF, logFatt, attenuation_disc])
 out=np.transpose(out)      
-np.savetxt(path+'SAGoutput_dust.txt', out, fmt='%12.9f', header='#log10(L/ergs^-1)    log10(Latt/ergs^-1)  log10(F/ergs^-1cm^-2)     log10(Fatt/ergs^-1cm^-2)    att_coeff') 
+np.savetxt(path+'SAGoutput_z=0.09_dust.txt', out, fmt='%12.9f', header='#log10(L/ergs^-1)    log10(Latt/ergs^-1)  log10(F/ergs^-1cm^-2)     log10(Fatt/ergs^-1cm^-2)    att_coeff') 
 
 
