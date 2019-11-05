@@ -16,5 +16,5 @@ The output table provides the following columns:
 2. Attenuated Halpha luminosity in log scale
 3. Non-attenuated Halpha flux in log scale: *log10(FHa/erg s^-1 cm^-2)*
 4. Attenuated Halpha flux in log scale
-5. Attenuation coefficient of the disc *AA*, which is used as. *logLatt=logL-0.4AA*
+5. Attenuation coefficient of the disc *AA* used to derive the attenuated luminosity as: *logLatt=logL-0.4AA*
 
