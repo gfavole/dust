@@ -1,4 +1,4 @@
 # dust
-This code is based on the work of [Favole et al. 2019](https://ui.adsabs.harvard.edu/abs/2019arXiv190805626F/abstract) and calculates the interstellar dust attenuation coefficient of ELG luminosities in [MultiDark-Galaxies](https://www.cosmosim.org/cms/documentation/projects/galaxies/).
+This code calculates the interstellar dust attenuation coefficient of ELG luminosities in [MultiDark-Galaxies](https://www.cosmosim.org/cms/documentation/projects/galaxies/). It is based on the work of Favole et al. 2019b (in prep.) for SDSS Halpha emitters at mean redshift z=0.1. A similar implementation for [OII] ELGs is documented in [Favole et al. 2019a](https://ui.adsabs.harvard.edu/abs/2019arXiv190805626F/abstract).
 
-As most star formation occurs in the disc component of these SAM galaxies, that is where the gaseous component is located, we implement dust attenuation only for the disc.
+The MultiDark-Galaxies mocks have been run with three different semi-analytic models of galaxy formation and evolution: SAG, SAGE and Galacticus. In these SAMs most star formation occurs in the disc, that is where the gaseous component is located, thus we implement dust attenuation only for the galaxy disc component.
