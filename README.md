@@ -3,5 +3,5 @@ This code calculates the interstellar dust attenuation coefficient of ELG lumino
 
 The MultiDark-Galaxies mocks have been run with three different semi-analytic models of galaxy formation and evolution: SAG, SAGE and Galacticus. In these SAMs most star formation occurs in the disc, that is where the gaseous component is located, thus we implement dust attenuation only for the galaxy disc component.
 
-In order to run dust.py, you need to import numpy, pytfits and astroML.cosmology. 
+In order to run dust.py, you need to import **numpy**, **pytfits** and **astroML.cosmology**. 
 
