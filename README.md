@@ -6,7 +6,7 @@ The MultiDark-Galaxies mocks have been run with three different semi-analytic mo
 In order to run dust.py, you need to import **numpy**, **pytfits** and **astroML.cosmology**. 
 
 An input catalogue *SAGinput_z=0.09.fits* is provided for testing. This is a random sampling from SAG model galaxies at z=0.09. The input columns are: 
-1. Non-attenuated Halpha luminosity in log scale: *log_{10}(LHa/erg s^-1)*
+1. Non-attenuated Halpha luminosity in log scale: *log10(LHa/erg s^-1)*
 2. Cold gas mass in the disc in *[Msun]*
 3. Half mass radius of the disc in *[Mpc]*
 4. Metallicity of the disc
@@ -14,7 +14,7 @@ An input catalogue *SAGinput_z=0.09.fits* is provided for testing. This is a ran
 The output table provides the following columns:
 1. Non-attenuated Halpha luminosity in log scale
 2. Attenuated Halpha luminosity in log scale
-3. Non-attenuated Halpha flux in log scale: *log_{10}(FHa/erg s^-1 cm^-2)*
+3. Non-attenuated Halpha flux in log scale: *log10(FHa/erg s^-1 cm^-2)*
 4. Attenuated Halpha flux in log scale
 5. Attenuation coefficient of the disc *AA*, which is used as. *logLatt=logL-0.4AA*
 
