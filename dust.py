@@ -12,7 +12,7 @@ def cardelliIR(waveA):
     x=1./wave
     ax=0.574*(x**1.61) 
     bx=-0.527*(x**1.61)
-    return ax+x/Rv
+    return ax+bx/Rv
 
 def cardelliOPT(waveA):
     Rv=3.1 
@@ -21,7 +21,7 @@ def cardelliOPT(waveA):
     y=x-1.82
     ax=1.+0.17699*y-0.50447*y**2-0.02427*y**3+0.72085*y**4+0.01979*y**5-0.77530*y**6+0.32999*y**7 
     bx=1.411338*y+2.28305*y**2+1.07233*y**3-5.38434*y**4-0.62251*y**5+5.30260*y**6-2.09002*y**7
-    return ax+x/Rv
+    return ax+bx/Rv
 
 #-------------------------------------------------------------------------------------
 #  Attenuated Luminosity and Flux (log scale)
